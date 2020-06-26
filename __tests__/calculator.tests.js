@@ -54,12 +54,12 @@ describe('me', () => {
   });
 
   test('lifeExpectancyRemainingEarthYears should be equal to 47', () => {
-    const me = new Me (32, 32, 11680)
+    const me = new Me (32)
     expect(me.lifeExpectancyRemainingEarthYears).toEqual(47);
   });
 
-  test('lifeExpectancyRemainingMercuryYears should be equal to 132', () => {
-  
-    expect(me.lifeExpectancyRemainingMercuryYears).toEqual(132);
+  test('lifeExpectancyRemainingMercuryYears should be equal to 194', () => {
+    const me = new Me (32)
+    expect(me.lifeExpectancyRemainingMercuryYears).toEqual(194);
   });
 });
