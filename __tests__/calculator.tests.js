@@ -88,4 +88,9 @@ describe('me', () => {
     expect(me.lifeExpectancyRemainingUranusYears).toEqual(0);
   });
 
+  test('lifeExpectancyRemainingNeptuneYears should be equal to 0', () => {
+  
+    expect(me.lifeExpectancyRemainingNeptuneYears).toEqual(0);
+  });
+
 });
