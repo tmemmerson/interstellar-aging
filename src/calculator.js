@@ -6,8 +6,9 @@ let jupiterDaysYear = 4333;
 let saturnDaysYear = 10759
 let uranusDaysYear = 30678
 let neptuneDaysYear = 60190
+let lifeExpectancy = 79
 
-export function Me (age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusYears, ageMarsYears, ageJupiterYears, ageSaturnYears, ageUranusYears, ageNeptuneYears) {
+export function Me (age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusYears, ageMarsYears, ageJupiterYears, ageSaturnYears, ageUranusYears, ageNeptuneYears, lifeExpectancyRemainingMercuryYears) {
   this.age = age;
   this.ageEarthYears = age;
   this.ageEarthDays = ageEarthYears *  earthDaysYear;
@@ -18,4 +19,5 @@ export function Me (age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusY
   this.ageSaturnYears = Math.floor((ageEarthDays / saturnDaysYear));
   this.ageUranusYears = Math.floor((ageEarthDays / uranusDaysYear));
   this.ageNeptuneYears = Math.floor((ageEarthDays / neptuneDaysYear));
+  this.lifeExpectancyRemainingEarthYears = (lifeExpectancy - age)
 }

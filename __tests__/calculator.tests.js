@@ -53,8 +53,8 @@ describe('me', () => {
     expect(me.ageNeptuneYears).toEqual(0);
   });
 
-  test('lifeExpectancyRemainingMercuryYears should be equal to 195', () => {
+  test('lifeExpectancyRemainingEarthYears should be equal to 47', () => {
 
-    expect(me.lifeExpectancyRemainingMercuryYears).toEqual(195);
+    expect(me.lifeExpectancyRemainingEarthYears).toEqual(47);
   });
 });
