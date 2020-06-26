@@ -17,5 +17,10 @@ describe('me', () => {
     const me = new Me (32, 32)
     expect(me.ageEarthDays).toEqual(11680);
   });
+
+  test('ageMercuryYears should be equal to 133', () => {
+    const me = new Me (32, 32)
+    expect(me.ageMercuryYears).toEqual(133);
+  });
   
 });
