@@ -38,8 +38,8 @@ describe('me', () => {
     expect(me.ageJupiterYears).toEqual(2);
   });
 
-  test('ageSaturnYears should be equal to 1', () => {
-    
-    expect(me.ageJupiterYears).toEqual(1);
+  test('ageSaturnYears should be equal to 2', () => {
+    const me = new Me (32, 32, 11680)
+    expect(me.ageJupiterYears).toEqual(2);
   });
 });
