@@ -42,4 +42,9 @@ describe('me', () => {
     const me = new Me (32, 32, 11680)
     expect(me.ageJupiterYears).toEqual(2);
   });
+
+  test('ageUranusYears should be equal to 1', () => {
+
+    expect(me.ageUranusYears).toEqual(1);
+  });
 });
