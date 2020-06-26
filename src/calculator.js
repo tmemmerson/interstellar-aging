@@ -1,3 +1,4 @@
-export function Me (age) {
+export function Me (age, ageEarthYears) {
   this.age = age;
+  this.ageEarthYears;
 }
