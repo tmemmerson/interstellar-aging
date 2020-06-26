@@ -12,6 +12,36 @@
 ## **Specifications**
 
 | Spec 	| Input 	| Output 	|
+|-	|-	|-	|
+| mercuryDaysYear 	|  	| 88 	|
+| venusDaysYear 	|  	| 225 	|
+| earthDaysYear 	|  	| 365 	|
+| marsDaysYear 	|  	| 687 	|
+| jupiterDaysYear 	|  	| 4,333 	|
+| saturnDaysYear 	|  	| 10,759 	|
+| uranusDaysYear 	|  	| 30,678 	|
+| neptuneDaysYear 	|  	| 60,190 	|
+| ageEarthYears 	|  	| 32 	|
+| ageEarthDays 	| (ageEarthYears) * (earthDaysYear) 	| 11,680 	|
+| lifeExpectancy 	|  	| 79 	|
+| lifeExpectancyRemainingEarthYears 	| (lifeExpectancy) - (ageEarthYears) 	| 47 	|
+| lifeExpectancyRemainingEarthDays 	| (lifeExpectancyRemainingEarthYears) * (earthDaysYear) 	| 17,155 	|
+| ageMercuryYears 	| (ageEarthDays) / (mercuryDaysYear) 	| 132.73 	|
+| ageVenusYears 	| (ageEarthDays) / (venusDaysYear) 	| 51.91 	|
+| ageEarthYears 	| (ageEarthDays) / (earthDaysYear) 	| 32.00 	|
+| ageMarsYears 	| (ageEarthDays) / (marsDaysYear) 	| 17.00 	|
+| ageJupiterYears 	| (ageEarthDays) / (jupiterDaysYear) 	| 2.70 	|
+| ageSaturnYears 	| (ageEarthDays) / (saturnDaysYear) 	| 1.09 	|
+| ageUranusYears 	| (ageEarthDays) / (uranusDaysYear) 	| 0.38 	|
+| ageNeptuneYears 	| (ageEarthDays) / (neptuneDaysYear) 	| 0.19 	|
+| lifeExpectancyRemainingMercuryYears 	| (lifeExpectancyRemainingEarthDays) / (mercuryDaysYear) 	| 194.94 	|
+| lifeExpectancyRemainingVenusYears 	| (lifeExpectancyRemainingEarthDays) / (venusDaysYear) 	| 76.24 	|
+| lifeExpectancyRemainingEarthYears 	| (lifeExpectancyRemainingEarthDays) / (earthDaysYear) 	| 47.00 	|
+| lifeExpectancyRemainingMarsYears 	| (lifeExpectancyRemainingEarthDays) / (marsDaysYear) 	| 24.97 	|
+| lifeExpectancyRemainingJupiterYears 	| (lifeExpectancyRemainingEarthDays) / (jupiterDaysYear) 	| 3.96 	|
+| lifeExpectancyRemainingSaturnYears 	| (lifeExpectancyRemainingEarthDays) / (saturnDaysYear) 	| 1.59 	|
+| lifeExpectancyRemainingUranusYears 	| (lifeExpectancyRemainingEarthDays) / (uranusDaysYear) 	| 0.56 	|
+| lifeExpectancyRemainingNeptuneYears 	| (lifeExpectancyRemainingEarthDays) / (neptuneDaysYear) 	| 0.29 	|
 
 
 ## **Setup/Installation Requirements**
