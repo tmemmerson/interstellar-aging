@@ -34,7 +34,7 @@
 | ageSaturnYears 	| (ageEarthDays) / (saturnDaysYear) 	| 2 	|
 | ageUranusYears 	| (ageEarthDays) / (uranusDaysYear) 	| 0 	|
 | ageNeptuneYears 	| (ageEarthDays) / (neptuneDaysYear) 	| 0 	|
-| lifeExpectancyRemainingMercuryYears 	| (lifeExpectancyRemainingEarthDays) / (mercuryDaysYear) 	| 195 	|
+| lifeExpectancyRemainingMercuryYears 	| (lifeExpectancyRemainingEarthDays) / (mercuryDaysYear) 	| 194 	|
 | lifeExpectancyRemainingVenusYears 	| (lifeExpectancyRemainingEarthDays) / (venusDaysYear) 	| 77 	|
 | lifeExpectancyRemainingEarthYears 	| (lifeExpectancyRemainingEarthDays) / (earthDaysYear) 	| 47 	|
 | lifeExpectancyRemainingMarsYears 	| (lifeExpectancyRemainingEarthDays) / (marsDaysYear) 	| 25 	|

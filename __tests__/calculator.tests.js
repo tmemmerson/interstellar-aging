@@ -62,4 +62,9 @@ describe('me', () => {
     const me = new Me (32)
     expect(me.lifeExpectancyRemainingMercuryYears).toEqual(194);
   });
+
+  test('lifeExpectancyRemainingVenusYears should be equal to 51', () => {
+  
+    expect(me.lifeExpectancyRemainingMercuryYears).toEqual(51);
+  });
 });
