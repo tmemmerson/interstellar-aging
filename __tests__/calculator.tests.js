@@ -71,5 +71,11 @@ describe('me', () => {
   test('lifeExpectancyRemainingMarsYears should be equal to 24', () => {
     const me = new Me (32)
     expect(me.lifeExpectancyRemainingMarsYears).toEqual(24);
-  }); 
+  });
+
+  test('lifeExpectancyRemainingJupiterYears should be equal to 3', () => {
+
+    expect(me.lifeExpectancyRemainingJupiterYears).toEqual(3);
+  });
+
 });
