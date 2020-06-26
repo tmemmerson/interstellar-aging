@@ -52,4 +52,9 @@ describe('me', () => {
     const me = new Me (32, 32, 11680)
     expect(me.ageNeptuneYears).toEqual(0);
   });
+
+  test('lifeExpectancyRemainingMercuryYears should be equal to 195', () => {
+
+    expect(me.lifeExpectancyRemainingMercuryYears).toEqual(195);
+  });
 });
