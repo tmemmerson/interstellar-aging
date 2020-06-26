@@ -1,7 +1,10 @@
-let me = require('../src/calculator.js')
+import{ Me } from '../src/calculator.js'
+import { TestScheduler } from 'jest'
 
-describe("Me", function () {
-  it("is 32", function () 
+describe('me', () => {
 
-    expect(me.age()).toBe = 32
-  })
+  test('should be set to 32', () => {
+    const me = new Me(32);
+    expect(me.age).toEqual(32);
+  });
+});
