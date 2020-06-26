@@ -28,4 +28,8 @@ describe('me', () => {
     expect(me.ageVenusYears).toEqual(51);
   });
   
+  test('ageMarsYears should be equal to 17', () => {
+    const me = new Me (32, 32, 11680)
+    expect(me.ageMarsYears).toEqual(17);
+  });
 });
