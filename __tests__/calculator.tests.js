@@ -67,4 +67,9 @@ describe('me', () => {
     const me = new Me (32)
     expect(me.lifeExpectancyRemainingVenusYears).toEqual(76);
   });
+
+  test('lifeExpectancyRemainingMarsYears should be equal to 24', () => {
+
+    expect(me.lifeExpectancyRemainingMarsYears).toEqual(24);
+  });
 });
