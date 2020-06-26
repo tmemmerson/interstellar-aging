@@ -9,7 +9,8 @@ describe('me', () => {
   });
 
   test('ageEarthYears should be set to 32', () => {
-    
+    const me = new Me(32, 32);
     expect(me.ageEarthYears).toEqual(32);
   });
+  
 });
