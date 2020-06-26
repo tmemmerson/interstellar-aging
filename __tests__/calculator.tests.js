@@ -89,7 +89,7 @@ describe('me', () => {
   });
 
   test('lifeExpectancyRemainingNeptuneYears should be equal to 0', () => {
-  
+    const me = new Me (32)
     expect(me.lifeExpectancyRemainingNeptuneYears).toEqual(0);
   });
 
