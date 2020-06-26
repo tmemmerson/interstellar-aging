@@ -39,9 +39,9 @@
 | lifeExpectancyRemainingEarthYears 	| (lifeExpectancyRemainingEarthDays) / (earthDaysYear) 	| 46 	|
 | lifeExpectancyRemainingMarsYears 	| (lifeExpectancyRemainingEarthDays) / (marsDaysYear) 	| 24 	|
 | lifeExpectancyRemainingJupiterYears 	| (lifeExpectancyRemainingEarthDays) / (jupiterDaysYear) 	| 3 	|
-| lifeExpectancyRemainingSaturnYears 	| (lifeExpectancyRemainingEarthDays) / (saturnDaysYear) 	| 2 	|
-| lifeExpectancyRemainingUranusYears 	| (lifeExpectancyRemainingEarthDays) / (uranusDaysYear) 	| 1 	|
-| lifeExpectancyRemainingNeptuneYears 	| (lifeExpectancyRemainingEarthDays) / (neptuneDaysYear) 	| 1 	|
+| lifeExpectancyRemainingSaturnYears 	| (lifeExpectancyRemainingEarthDays) / (saturnDaysYear) 	| 1 	|
+| lifeExpectancyRemainingUranusYears 	| (lifeExpectancyRemainingEarthDays) / (uranusDaysYear) 	| 0 	|
+| lifeExpectancyRemainingNeptuneYears 	| (lifeExpectancyRemainingEarthDays) / (neptuneDaysYear) 	| 0 	|
 
 
 ## **Setup/Installation Requirements**
