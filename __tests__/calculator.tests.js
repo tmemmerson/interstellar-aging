@@ -12,5 +12,10 @@ describe('me', () => {
     const me = new Me(32, 32);
     expect(me.ageEarthYears).toEqual(32);
   });
+
+  test('ageEarthDays should be set to 11,680', () => {
+   
+    expect(me.ageEarthDays).toEqual(11680);
+  });
   
 });
