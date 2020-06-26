@@ -79,7 +79,7 @@ describe('me', () => {
   });
 
   test('lifeExpectancyRemainingSaturnYears should be equal to 1', () => {
-
+    const me = new Me (32)
     expect(me.lifeExpectancyRemainingSaturnYears).toEqual(1);
   });
 
