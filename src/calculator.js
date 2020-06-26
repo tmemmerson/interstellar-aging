@@ -23,4 +23,5 @@ export function Me (age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusY
   this.lifeExpectancyRemainingMercuryYears = Math.floor(((lifeExpectancy - age)*earthDaysYear)/mercuryDaysYear);
   this.lifeExpectancyRemainingVenusYears = Math.floor(((lifeExpectancy - age)*earthDaysYear)/venusDaysYear);
   this.lifeExpectancyRemainingMarsYears = Math.floor(((lifeExpectancy - age)*earthDaysYear)/marsDaysYear);
+  this.lifeExpectancyRemainingJupiterYears = Math.floor(((lifeExpectancy - age)*earthDaysYear)/jupiterDaysYear);
 }

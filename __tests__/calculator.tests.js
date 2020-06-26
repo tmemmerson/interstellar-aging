@@ -74,7 +74,7 @@ describe('me', () => {
   });
 
   test('lifeExpectancyRemainingJupiterYears should be equal to 3', () => {
-
+    const me = new Me (32)
     expect(me.lifeExpectancyRemainingJupiterYears).toEqual(3);
   });
 
