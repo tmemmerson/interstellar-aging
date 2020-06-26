@@ -3,10 +3,10 @@ let venusDaysYear = 225;
 let earthDaysYear = 365;
 let marsDaysYear = 687;
 let jupiterDaysYear = 4333;
-let saturnDaysYear = 10759
-let uranusDaysYear = 30678
-let neptuneDaysYear = 60190
-let lifeExpectancy = 79
+let saturnDaysYear = 10759;
+let uranusDaysYear = 30678;
+let neptuneDaysYear = 60190;
+let lifeExpectancy = 79;
 
 export function Me (age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusYears, ageMarsYears, ageJupiterYears, ageSaturnYears, ageUranusYears, ageNeptuneYears, lifeExpectancyRemainingEarthYears, lifeExpectancyRemainingMercuryYears) {
   this.age = age;
