@@ -71,5 +71,5 @@ describe('me', () => {
   test('lifeExpectancyRemainingMarsYears should be equal to 24', () => {
 
     expect(me.lifeExpectancyRemainingMarsYears).toEqual(24);
-  });
+  }); 
 });
