@@ -34,7 +34,7 @@ describe('me', () => {
   });
 
   test('ageJupiterYears should be equal to 2', () => {
-   
+    const me = new Me (32, 32, 11680)
     expect(me.ageJupiterYears).toEqual(2);
   });
 });
