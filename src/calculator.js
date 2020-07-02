@@ -1,17 +1,43 @@
-let mercuryDaysYear = 88;
-let venusDaysYear = 225;
-let earthDaysYear = 365;
-let marsDaysYear = 687;
-let jupiterDaysYear = 4333;
-let saturnDaysYear = 10759;
-let uranusDaysYear = 30678;
-let neptuneDaysYear = 60190;
 let lifeExpectancy = 79;
 
 export class Me {
-  constuctor(age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusYears, ageMarsYears, ageJupiterYears, ageSaturnYears, ageUranusYears, ageNeptuneYears, lifeExpectancyRemainingEarthYears, lifeExpectancyRemainingMercuryYears) {
-  this.age = age;
-  this.ageEarthYears = age;
+  constuctor(age) {
+    this.age = age;
+    this.ageEarthYears = age;
+  }
+    calculateAgeEarthDays() {
+      const earthDaysYear = 365;
+      ageEarthDays = age * earthDaysYear;
+    }
+    calculateAgeMercuryYears() {
+      const mercuryDaysYear = 88;
+      ageMercuryYears = ageEarthDays * age / mercuryDaysYear;
+    }
+    calculateAgeVenusYears() {
+      const venusDaysYear = 225;
+      ageVenusYears = ageEarthDays * age / venusDaysYear;
+    }
+    calculateAgeMarsYears() {
+      const marsDaysYear = 687;
+      ageMarsYears = ageEarthDays * age / marsDaysYear;
+    }
+    calculateAgeJupiterYears() {
+      const jupiterDaysYear = 4333;
+      ageJupiterYears = ageEarthDays * age / jupiterDaysYear;
+    }
+    calculateAgeSaturnYears() {
+      const saturnDaysYear = 10759;
+      ageSaturnYears = ageEarthDays * age / saturnDaysYear;
+    }
+    calculateAgeUranusYears() {
+      const uranusDaysYear = 30678;
+      ageUranusYears = ageEarthDays * age / uranusDaysYear;
+    }
+    calculateAgeNeptuneYears() {
+      const neptuneDaysYear = 60190;
+      ageNeptuneYears = ageEarthDays * age / neptuneDaysYear;
+    }
+
   this.ageEarthDays = ageEarthYears *  earthDaysYear;
   this.ageMercuryYears = Math.floor((ageEarthDays / mercuryDaysYear));
   this.ageVenusYears = Math.floor((ageEarthDays / venusDaysYear));
