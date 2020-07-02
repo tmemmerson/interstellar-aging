@@ -8,7 +8,8 @@ let uranusDaysYear = 30678;
 let neptuneDaysYear = 60190;
 let lifeExpectancy = 79;
 
-export function Me (age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusYears, ageMarsYears, ageJupiterYears, ageSaturnYears, ageUranusYears, ageNeptuneYears, lifeExpectancyRemainingEarthYears, lifeExpectancyRemainingMercuryYears) {
+export class Me {
+  constuctor(age, ageEarthYears, ageEarthDays, ageMercuryYears, ageVenusYears, ageMarsYears, ageJupiterYears, ageSaturnYears, ageUranusYears, ageNeptuneYears, lifeExpectancyRemainingEarthYears, lifeExpectancyRemainingMercuryYears) {
   this.age = age;
   this.ageEarthYears = age;
   this.ageEarthDays = ageEarthYears *  earthDaysYear;
