@@ -11,31 +11,31 @@ export class Me {
     }
     calculateAgeMercuryYears() {
       const mercuryDaysYear = 88;
-      ageMercuryYears = ageEarthDays * age / mercuryDaysYear;
+      ageMercuryYears = Math.floor((ageEarthDays * age / mercuryDaysYear));
     }
     calculateAgeVenusYears() {
       const venusDaysYear = 225;
-      ageVenusYears = ageEarthDays * age / venusDaysYear;
+      ageVenusYears = Math.floor((ageEarthDays * age / venusDaysYear));
     }
     calculateAgeMarsYears() {
       const marsDaysYear = 687;
-      ageMarsYears = ageEarthDays * age / marsDaysYear;
+      ageMarsYears = Math.floor((ageEarthDays * age / marsDaysYear));
     }
     calculateAgeJupiterYears() {
       const jupiterDaysYear = 4333;
-      ageJupiterYears = ageEarthDays * age / jupiterDaysYear;
+      ageJupiterYears = Math.floor((ageEarthDays * age / jupiterDaysYear));
     }
     calculateAgeSaturnYears() {
       const saturnDaysYear = 10759;
-      ageSaturnYears = ageEarthDays * age / saturnDaysYear;
+      ageSaturnYears = Math.floor((ageEarthDays * age / saturnDaysYear));
     }
     calculateAgeUranusYears() {
       const uranusDaysYear = 30678;
-      ageUranusYears = ageEarthDays * age / uranusDaysYear;
+      ageUranusYears = Math.floor((ageEarthDays * age / uranusDaysYear));
     }
     calculateAgeNeptuneYears() {
       const neptuneDaysYear = 60190;
-      ageNeptuneYears = ageEarthDays * age / neptuneDaysYear;
+      ageNeptuneYears = Math.floor((ageEarthDays * age / neptuneDaysYear));
     }
 
   this.ageEarthDays = ageEarthYears *  earthDaysYear;
