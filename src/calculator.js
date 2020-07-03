@@ -15,7 +15,7 @@ export class Me {
     calculateAgeVenusYears() {
       const venusDaysYear = 225;
       this.ageVenusYears = Math.floor((this.earthDaysYear * this.age / venusDaysYear))
-    }
+    } 
     calculateAgeMarsYears() {
       const marsDaysYear = 687;
       this.ageMarsYears = Math.floor((this.earthDaysYear * this.age / marsDaysYear));
