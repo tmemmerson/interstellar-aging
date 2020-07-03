@@ -3,38 +3,38 @@ export class Me {
     this.age = age;
     this.ageEarthYears = age;
     this.lifeExpectancy = 79;
+    this.earthDaysYear = 365
   }
     calculateAgeEarthDays() {
-      const earthDaysYear = 365;
       this.ageEarthDays = this.age * earthDaysYear;
     }
     calculateAgeMercuryYears() {
       const mercuryDaysYear = 88;
-      this.ageMercuryYears = Math.floor((this.ageEarthDays * this.age / mercuryDaysYear));
+      this.ageMercuryYears = Math.floor((this.earthDaysYear * this.age / mercuryDaysYear));
     }
     calculateAgeVenusYears() {
       const venusDaysYear = 225;
-      this.ageVenusYears = Math.floor((this.ageEarthDays * this.age / venusDaysYear))
+      this.ageVenusYears = Math.floor((this.earthDaysYear * this.age / venusDaysYear))
     }
     calculateAgeMarsYears() {
       const marsDaysYear = 687;
-      this.ageMarsYears = Math.floor((this.ageEarthDays * this.age / marsDaysYear));
+      this.ageMarsYears = Math.floor((this.earthDaysYear * this.age / marsDaysYear));
     }
     calculateAgeJupiterYears() {
       const jupiterDaysYear = 4333;
-      this.ageJupiterYears = Math.floor((this.ageEarthDays * this.age / jupiterDaysYear));
+      this.ageJupiterYears = Math.floor((this.earthDaysYear * this.age / jupiterDaysYear));
     }
     calculateAgeSaturnYears() {
       const saturnDaysYear = 10759;
-      this.ageSaturnYears = Math.floor((this.ageEarthDays * this.age / saturnDaysYear));
+      this.ageSaturnYears = Math.floor((this.earthDaysYear * this.age / saturnDaysYear));
     }
     calculateAgeUranusYears() {
       const uranusDaysYear = 30678;
-      this.ageUranusYears = Math.floor((this.ageEarthDays * this.age / uranusDaysYear));
+      this.ageUranusYears = Math.floor((this.earthDaysYear * this.age / uranusDaysYear));
     }
     calculateAgeNeptuneYears() {
       const neptuneDaysYear = 60190;
-      this.ageNeptuneYears = Math.floor((this.ageEarthDays * this.age / neptuneDaysYear));
+      this.ageNeptuneYears = Math.floor((this.earthDaysYear * this.age / neptuneDaysYear));
     }
     calculateLifeExpectancyEarthYears() {
       this.lifeExpectancyEarthYears = this.lifeExpectancy - this.age;
