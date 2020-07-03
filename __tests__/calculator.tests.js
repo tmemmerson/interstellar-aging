@@ -41,7 +41,7 @@ describe(Me, () => {
   test('ageSaturnYears should be equal to 2', () => {
     const me = new Me (32)
     me.calculateAgeSaturnYears();
-    expect(me.ageJupiterYears).toBe(2);
+    expect(me.ageSaturnYears).toBe(1);
   }); 
   test('ageUranusYears should be equal to 0', () => {
     const me = new Me (32)
