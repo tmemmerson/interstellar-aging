@@ -1,6 +1,4 @@
 import{ Me } from '../src/calculator'
-import { TestScheduler } from 'jest'
-
 describe(Me, () => {
 
   test('age should be set to 32', () => {
